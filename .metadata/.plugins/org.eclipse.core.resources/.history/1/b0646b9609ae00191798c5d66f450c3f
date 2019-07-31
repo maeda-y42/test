@@ -1,7 +1,0 @@
-
-public interface MP3Player {
-	public abstract void pllay();
-	public abstract void stop();
-	public abstract void next();
-	public abstract void back();
-}

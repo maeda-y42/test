@@ -1,9 +1,0 @@
-
-public class Iphone {
-	public static void main(String[] args){
-		SmarPhone iphone = new SmartPhone();
-		iphone.play();
-		iphone.atop();
-
-	}
-}
