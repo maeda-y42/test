@@ -1,6 +1,7 @@
 
 import java.io.IOException;
 import java.io.PrintWriter;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -29,8 +30,18 @@ ServletException, IOException{
 out.println("<html><head></head><body><br>"+username+"<br>"+password+"</body></html>");
 }
 
-protected void doPost(HttpServletRequest request, HttpServletReponse response) throws
+protected void doPost(HttpServletRequest request, HttpServletResponse response) throws
 ServletException,IOException{
-	re
+	request.setCharacterEncoding("UTF-8");
+	response.setContentType("text/html; charset=UTF-8");
+
+	String username = request.getParameter("username");
+	String password = request.getParameter("password");
+	System.out.println(username);
+	System.out.println(password);
+
+	PrintWriter out=response.getWriter();
+
+	out.println("<html><head></head><body><br>"+username+"<br>"+password+"</body></html>");
 }
 }

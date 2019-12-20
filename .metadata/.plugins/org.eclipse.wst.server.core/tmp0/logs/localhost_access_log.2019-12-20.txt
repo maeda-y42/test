@@ -1,0 +1,17 @@
+127.0.0.1 - - [20/Dec/2019:20:16:17 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:16:20 +0900] "GET /HelloServlet/ HTTP/1.1" 200 736
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:17:10 +0900] "GET /HelloServlet/ HTTP/1.1" 200 736
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:17:29 +0900] "GET /HelloServlet/TestServlet?username=aaa&password=123 HTTP/1.1" 200 55
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:17:58 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 56
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:18:08 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 56
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:21:29 +0900] "GET /HelloServlet/ HTTP/1.1" 200 736
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:21:31 +0900] "GET /HelloServlet/HelloServlet HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:21:34 +0900] "GET /HelloServlet/welcome.jsp HTTP/1.1" 200 344
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:21:42 +0900] "POST /HelloServlet/WelcomeServlet HTTP/1.1" 200 71
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:21:50 +0900] "GET /HelloServlet/inquiry.jsp HTTP/1.1" 200 646
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:21:52 +0900] "POST /HelloServlet/InquiryServlet HTTP/1.1" 200 105
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:23:47 +0900] "GET /HelloServlet/ HTTP/1.1" 200 736
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:24:03 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 62
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:26:56 +0900] "GET /HelloServlet/ HTTP/1.1" 200 737
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:27:03 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 55
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:20:27:18 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 55
