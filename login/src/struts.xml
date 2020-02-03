@@ -5,7 +5,7 @@
 "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
-  <coustant name="struts.devMode" value="true"/>]
+  <coustant name="struts.devMode" value="true"/>
   <package name="com.internousdev.login.action" extends="struts-default">
 
   <action name="LoginAction" class="com.internousdev.login.action.LoginAction" method="execute">
