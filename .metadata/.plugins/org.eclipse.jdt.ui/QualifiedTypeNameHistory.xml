@@ -4,4 +4,6 @@
 <fullyQualifiedTypeName name="javax.servlet.AsyncContext"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="com.internousdev.login.dto.LoginDTO"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
 </qualifiedTypeNameHistroy>
